@@ -1,6 +1,7 @@
 # Multi Crosshair
 
-A mod made by Nikita9724
+A mod made by Nikita9724.
+
 A Fabric mod for Minecraft 1.20.1 that renders as many crosshairs as you want
 on screen, arranged in a smooth spiral pattern around the center. Everything
 is controlled live with chat commands — no restart needed.
