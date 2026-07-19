@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "crosshairmod",
+  "version": "${version}",
+  "name": "Multi Crosshair",
+  "description": "Add as many crosshairs as you want, with adjustable count, range and density, all controlled via /crosshair commands.",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.example.crosshairmod.CrosshairMod"
+    ],
+    "client": [
+      "com.example.crosshairmod.client.CrosshairModClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
